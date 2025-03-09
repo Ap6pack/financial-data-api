@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+venv/
+.env
+.vscode/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+*.dockerignore
+*.DS_Store

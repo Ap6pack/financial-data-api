@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from data_fetcher import get_stock_history, get_fundamentals, get_technical_indicators, get_macro_data
+from src.data_fetcher import get_stock_history, get_fundamentals, get_technical_indicators, get_macro_data
 
 app = FastAPI(title="Financial Data API")
 

@@ -1,7 +1,7 @@
-from cache import get_cached_data, set_cached_data
+from src.cache import get_cached_data, set_cached_data
 import yfinance as yf
 import requests
-from config import ALPHA_VANTAGE_KEY, FMP_KEY, QUANDL_KEY
+from src.config import ALPHA_VANTAGE_KEY, FMP_KEY, QUANDL_KEY
 
 def get_stock_history(ticker, period="1mo"):
     """Fetch stock history with caching."""
